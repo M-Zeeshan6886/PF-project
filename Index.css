@@ -1,6 +1,11 @@
+@font-face{
+    font-family: Kenyan Coffee;
+    src: url(./kenyan_coffee/kenyancoffee.otf);
+}
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Kenyan-coffee';
 }
 body{
     background: #F3F3F3;
@@ -34,7 +39,7 @@ body{
 .heading{
     text-transform: uppercase;
     color: #272A5F;
-    font-family: Kenyan Coffee;
+    font-family: Kenyan Coffee !important;
     /* font-size: 2rem; */
     font-style: normal;
     font-weight: 400;
@@ -100,8 +105,8 @@ body{
 background-color: aqua;
 }
 .overview-section1-left{
-    /* width: 65%; */
-    /* background-color: aqua; */
+ width: 65%;
+    background-color: aqua; 
 
 }
 .overview-section1-left span{
