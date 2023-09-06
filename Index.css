@@ -6,11 +6,11 @@
   font-family: Raleway;
   src: url(./raleway/Raleway-Light.ttf);
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap");
 * {
   padding: 0px;
   margin: 0px;
-  font-family: "Kenyan-coffee","Raleway";
+  font-family: "Kenyan-coffee", "Raleway";
 }
 body {
   background: #f3f3f3;
@@ -27,17 +27,17 @@ body {
   z-index: 9999;
   width: 10rem;
   height: 15rem;
-  
-@media only screen and (max-width: 600px){
-  display: none;
-}
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 .section-mainBanner {
   position: absolute;
   right: 0%;
   top: 0%;
   height: 95vh;
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px) {
     display: none;
   }
 }
@@ -46,7 +46,7 @@ body {
   background-image: url("./Assets/headerBG.png");
   background-position: center;
   background-repeat: no-repeat;
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px) {
     background-size: contain;
   }
 }
@@ -73,7 +73,7 @@ body {
   letter-spacing: 0.08rem;
   text-align: justify;
   margin-top: 2.6px;
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px) {
     width: auto;
   }
 }
@@ -113,13 +113,13 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
 }
 .overview-section1-left {
   width: 65%;
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px) {
     width: 100%;
   }
 }
@@ -154,14 +154,32 @@ body {
 .problem-section {
   display: flex;
   justify-content: space-between;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column-reverse;
+  }
 }
 .problem-section-left {
   width: 50%;
   padding-top: 1rem;
 }
-.problem-section-left img {
+.solution-section-right p {
+  text-align: justify;
+}
+.img2 {
   margin-top: 3.6rem;
   margin-left: -0.5rem;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}
+.img2-1 {
+  visibility: hidden;
+  @media only screen and (max-width: 600px) {
+    visibility: visible;
+    width: 15rem;
+    height: 20vh;
+  }
 }
 .problem-section-right span {
   color: rgba(39, 42, 95, 0.1);
@@ -187,9 +205,14 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: -4.5rem;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    margin-top: 0%;
+  }
 }
-/* .solution-section-left {
-} */
+.solution-section-left P {
+  text-align: justify;
+}
 .solution-section-left h1 {
   color: #272a5f;
   /* margin-top: -1.8rem; */
@@ -237,6 +260,9 @@ body {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 .dprocess-row1-items {
   width: 15rem;
@@ -260,6 +286,9 @@ body {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 .dprocess-row2-items {
   width: 15rem;
