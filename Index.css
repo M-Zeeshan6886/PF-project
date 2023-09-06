@@ -2,10 +2,15 @@
   font-family: Kenyan Coffee;
   src: url(./kenyan_coffee/kenyancoffee.otf);
 }
+@font-face {
+  font-family: Raleway;
+  src: url(./raleway/Raleway-Light.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 * {
   padding: 0px;
   margin: 0px;
-  font-family: "Kenyan-coffee";
+  font-family: "Kenyan-coffee","Raleway";
 }
 body {
   background: #f3f3f3;
@@ -49,6 +54,7 @@ body {
   width: 35rem;
   height: 11.8rem;
   flex-shrink: 0;
+  font-family: Raleway;
   color: #3a3a3a;
   font-size: 1rem;
   font-style: normal;
@@ -77,6 +83,7 @@ body {
   height: unset;
   width: unset;
   color: #3a3a3a;
+  font-family: Raleway;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 115%; /* 2.76rem */
@@ -121,6 +128,7 @@ body {
   letter-spacing: 5%;
   line-height: 24.24px;
   color: #3a3a3a;
+  font-family: Raleway;
 }
 
 .problem-section {
@@ -222,6 +230,7 @@ body {
   text-align: justify;
   text-align: center;
   font-size: 1rem;
+  font-family: Raleway;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -243,6 +252,7 @@ body {
 .dprocess-row2-items p {
   text-align: justify;
   text-align: center;
+  font-family: Raleway;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -335,13 +345,14 @@ body {
 }
 .fontstyle-container-right p {
   color: #999;
+  font-family: Raleway;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 115%; /* 2.76rem */
 }
 .fontstyle-container-right pre {
   color: #5c5c5c;
-
+  font-family: Raleway;
   font-size: 1.3rem;
   font-style: normal;
   line-height: 115%; /* 2.3rem */
@@ -374,6 +385,7 @@ body {
 .onboarding-container-left p {
   color: #3a3a3a;
   font-size: 1rem;
+  font-family: Raleway;
   font-style: normal;
   font-weight: 500;
   line-height: 151.5%; /* 2.424rem */
@@ -435,6 +447,7 @@ body {
 .footer-container p {
   color: #fff;
   font-size: 1.5rem;
+  font-family: Raleway;
   font-weight: 400;
   line-height: 142.5%; /* 3.5625rem */
 }
