@@ -27,18 +27,28 @@ body {
   z-index: 9999;
   width: 10rem;
   height: 15rem;
+  
+@media only screen and (max-width: 600px){
+  display: none;
+}
 }
 .section-mainBanner {
   position: absolute;
   right: 0%;
   top: 0%;
   height: 95vh;
+  @media only screen and (max-width: 600px){
+    display: none;
+  }
 }
 
 .banner-bg-img {
   background-image: url("./Assets/headerBG.png");
   background-position: center;
   background-repeat: no-repeat;
+  @media only screen and (max-width: 600px){
+    background-size: contain;
+  }
 }
 .heading {
   text-transform: uppercase;
@@ -63,6 +73,9 @@ body {
   letter-spacing: 0.08rem;
   text-align: justify;
   margin-top: 2.6px;
+  @media only screen and (max-width: 600px){
+    width: auto;
+  }
 }
 .banner-bottom-Desc {
   display: flex;
@@ -100,9 +113,15 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  @media only screen and (max-width: 600px){
+    flex-direction: column;
+  }
 }
 .overview-section1-left {
   width: 65%;
+  @media only screen and (max-width: 600px){
+    width: 100%;
+  }
 }
 .overview-section1-left span {
   color: rgba(39, 42, 95, 0.1);
@@ -126,6 +145,7 @@ body {
 .overview-section1-left p {
   font-size: 16px;
   letter-spacing: 5%;
+  text-align: justify;
   line-height: 24.24px;
   color: #3a3a3a;
   font-family: Raleway;
