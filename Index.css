@@ -103,22 +103,15 @@ body {
 }
 
 .overview-wrapper {
-  padding: 4rem;
+  padding: 2rem 0rem;
   background: lavender;
   height: auto;
   width: unset;
 }
 
-.overview-section1 {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  @media only screen and (max-width: 600px) {
-    flex-direction: column;
-  }
-}
+
 .overview-section1-left {
-  width: 65%;
+  /* width: 65%; */
   @media only screen and (max-width: 600px) {
     width: 100%;
   }
@@ -151,34 +144,27 @@ body {
   font-family: Raleway;
 }
 
-.problem-section {
-  display: flex;
-  justify-content: space-between;
-  @media only screen and (max-width: 600px) {
-    flex-direction: column-reverse;
-  }
-}
+
 .problem-section-left {
-  width: 50%;
+  width: auto;
   padding-top: 1rem;
 }
-.solution-section-right p {
+.problem-section-right p {
+  margin-top: 1.5rem;
   text-align: justify;
 }
 .img2 {
   margin-top: 3.6rem;
-  margin-left: -0.5rem;
-
   @media only screen and (max-width: 600px) {
     display: none;
   }
 }
 .img2-1 {
-  visibility: hidden;
+  display: none;
   @media only screen and (max-width: 600px) {
-    visibility: visible;
-    width: 15rem;
-    height: 20vh;
+    display: block;
+    width: 20rem;
+    height: 30vh;
   }
 }
 .problem-section-right span {
@@ -189,6 +175,9 @@ body {
   font-weight: 400;
   line-height: 115%; /* 11.5rem */
   letter-spacing: 10%;
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
 }
 .problem-section-right h1 {
   color: #272a5f;
@@ -199,17 +188,25 @@ body {
   font-weight: 400;
   line-height: 115%; /* 5.98rem */
   letter-spacing: 0.52rem;
-}
-
-.solution-section {
-  display: flex;
-  justify-content: space-between;
-  margin-top: -4.5rem;
+  /* background-color: aqua; */
   @media only screen and (max-width: 600px) {
-    flex-direction: column;
-    margin-top: 0%;
+    font-size: 1.5rem;
+    letter-spacing: .42rem;
+    margin-top: -1rem;
   }
 }
+
+
+.solution-section-left span {
+  color: rgba(39, 42, 95, 0.1);
+  font-family: Kenyan Coffee;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%; /* 11.5rem */
+  letter-spacing: 10%;
+}
+
 .solution-section-left P {
   text-align: justify;
 }
@@ -218,6 +215,7 @@ body {
   /* margin-top: -1.8rem; */
   font-family: Kenyan Coffee;
   font-size: 2.5rem;
+  margin-top: -1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 115%; /* 5.98rem */
@@ -550,4 +548,13 @@ body {
     font-size: 1rem;
     text-align: center;
   }
+}
+
+
+
+.div1{
+  border:1px solid #000;
+}
+.div2{
+  border:1px solid #000;
 }
