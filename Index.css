@@ -255,6 +255,9 @@ body {
   font-weight: 400;
   line-height: 115%; /* 11.5rem */
   letter-spacing: 10%;
+  @media only screen and (max-width: 600px) {
+    font-size: 4rem;
+  }
 }
 .dprocess-row1 {
   margin-top: 3rem;
@@ -271,6 +274,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media only screen and (max-width: 600px) {
+    width: auto;
+  }
 }
 .dprocess-row1-items p {
   text-align: justify;
@@ -297,6 +303,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media only screen and (max-width: 600px) {
+    width: auto;
+  }
 }
 .dprocess-row2-items p {
   text-align: justify;
@@ -332,6 +341,9 @@ body {
   font-weight: 400;
   line-height: 115%; /* 11.5rem */
   letter-spacing: 10%;
+  @media only screen and (max-width: 600px) {
+    font-size: 4rem;
+  }
 }
 .font-container {
   display: flex;
@@ -367,21 +379,34 @@ body {
   line-height: 115%; /* 4.14rem */
   letter-spacing: 0.18rem;
   text-align: center;
+  @media only screen and (max-width: 600px) {
+    font-size: 1.5rem;
+  }
 }
 
 .fontstyle-container {
   margin-top: -7rem;
   display: flex;
   align-items: flex-end;
+  @media only screen and (max-width: 600px) {
+    margin-top: -2rem;
+    flex-direction: column;
+  }
 }
 .fontstyle-container-left {
   width: 50%;
+  @media only screen and (max-width: 600px) {
+    width: auto;
+  }
 }
 .fontstyle-container-left b {
   color: rgba(39, 42, 95, 0.1);
   font-size: 20rem;
   font-weight: 600;
   line-height: 115%; /* 34.5rem */
+  @media only screen and (max-width: 600px) {
+     font-size: 15rem;
+  }
 }
 .fontstyle-container-right {
   margin-bottom: 4rem;
@@ -398,6 +423,9 @@ body {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 115%; /* 2.76rem */
+  @media only screen and (max-width: 600px) {
+  font-size: 1.3rem;
+  }
 }
 .fontstyle-container-right pre {
   color: #5c5c5c;
@@ -409,9 +437,16 @@ body {
 .onboarding-container {
   padding: 3rem;
   display: flex;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 .onboarding-container-left {
   width: 50%;
+  @media only screen and (max-width: 600px) {
+    width: auto;
+    text-align: justify;
+  }
 }
 
 .onboarding-container-left h1 {
@@ -430,6 +465,9 @@ body {
   font-weight: 400;
   line-height: 115%; /* 11.5rem */
   letter-spacing: 10%;
+  @media only screen and (max-width: 600px) {
+    font-size: 4rem;
+  }
 }
 .onboarding-container-left p {
   color: #3a3a3a;
@@ -452,6 +490,9 @@ body {
   font-weight: 400;
   line-height: 115%; /* 11.5rem */
   letter-spacing: 10%;
+  @media only screen and (max-width: 600px) {
+    font-size: 3rem;
+  }
 }
 .home-container-top h1 {
   color: #272a5f;
@@ -461,6 +502,9 @@ body {
   font-weight: 400;
   line-height: 115%; /* 5.98rem */
   letter-spacing: 0.42rem;
+  @media only screen and (max-width: 600px) {
+    font-size: 1.5rem;
+  }
 }
 .home-container-bottom {
   display: flex;
@@ -492,6 +536,9 @@ body {
   font-size: 3rem;
   font-weight: 400;
   margin-top: 2.5rem;
+  @media only screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
 }
 .footer-container p {
   color: #fff;
@@ -499,4 +546,8 @@ body {
   font-family: Raleway;
   font-weight: 400;
   line-height: 142.5%; /* 3.5625rem */
+  @media only screen and (max-width: 600px) {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
